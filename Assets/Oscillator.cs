@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +7,7 @@ public class Oscillator : MonoBehaviour {
 
     [SerializeField] Vector3 movementVector = new Vector3(10f, 10f, 10f);
     [SerializeField] float period = 2f;
-    [SerializeField] float movementOffset = 0.5f;
+    [SerializeField] float movementOffset = 0.6f;
 
     float movementFactor; // 0 for not moved, 1 for fully moved.
     Vector3 startingPos;
@@ -30,3 +30,4 @@ public class Oscillator : MonoBehaviour {
         transform.position = startingPos + offset;
 	}
 }
+// adding a comment to practice sourcetree
